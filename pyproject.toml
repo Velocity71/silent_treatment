@@ -1,0 +1,18 @@
+[project]
+name = "silent_treatment"
+description = "A password manager prototype written in Python."
+version = "0.0.1"
+readme = "README.md"
+license = "GPL-3.0-only"
+requires-python = ">= 3.10"
+dependencies = []
+authors = [{name = "Parker Vannah", email = "parker.vannah.71@protonmail.com"}]
+maintainers = [{name= "Parker Vannah", email = "parker.vannah.71@protonmail.com"}]
+
+
+[project.scripts]
+run = "silent_treatment.main:main"
+
+[build-system]
+requires = ["uv_build >= 0.10.10, <0.11.0"]
+build-backend = "uv_build"
