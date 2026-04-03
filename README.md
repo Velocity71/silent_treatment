@@ -47,7 +47,10 @@ You may choose to install the package locally. To do this, execute:
 ```
 pip3 install .
 ```
-If you would like to edit live, add with the `-e` flag.
+If you would like to edit live, add with the `-e` flag:
+```
+pip3 install -e .
+```
 
 At this point you can choose to execute with the two above commands or you can
 use either of the following commands:
