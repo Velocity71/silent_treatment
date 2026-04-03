@@ -10,10 +10,7 @@ All dependencies are listed in `environment.yml` and `pyproject.toml`
 ### A note for Conda users
 The provided `environment.yml` file can be used to create a Conda environment
 with all required dependencies. As a refresher, execute:\
-```
-conda env create -f environment.yml
-conda activate silent_treatment
-```
+`conda env create -f environment.yml` and `conda activate silent_treatment`
 
 Fun fact: you can run a command inside a Conda environment without activating it
 by running:\
