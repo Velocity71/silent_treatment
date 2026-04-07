@@ -5,6 +5,7 @@ from silent_treatment import __version__
 from silent_treatment.core import *
 
 def main():
+    logger.debug("Main method called.")
     print(f"silent_treatment version: {__version__}")
     print("Running filechecks...")
     checkfile()
